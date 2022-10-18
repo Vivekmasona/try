@@ -1,49 +1,30 @@
-  "name": "BANG",
-  "short_name": "BANG",
-  "description": "Neo Bang",
-  "start_url": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#1B252C",
-  "theme_color": "#1B252C",
+{
+  "short_name": "Share",
+  "name": "Share Target Test",
+  "share_target": {
+    "action": "target.html",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "description": "Web Share Target Demo",
   "icons": [
     {
-      "src": "/vivek2.png",
+      "src": "https://cdn.glitch.com/537884d8-2d6f-40d1-b837-1f86ed4ae80a%2Ficon-192.png?1543523488495",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
-      "src": "/vivek2.png",
+      "src": "https://cdn.glitch.com/537884d8-2d6f-40d1-b837-1f86ed4ae80a%2Ficon-512.png?1543523488534",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     }
   ],
-  "shortcuts": [
-    {
-      "name": "Transfer",
-      "short_name": "Dough Disposal",
-      "description": "Send some dough to your peeps",
-      "url": "/send-money",
-      "icons": [
-        {
-          "src": "/vivek.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Overview",
-      "short_name": "My Dough",
-      "description": "Where is my money?",
-      "url": "/overview",
-      "icons": [
-        {
-          "src": "/vivek.png",
-          "sizes": "96x96"
-        },
-      ],
-    },
-  ],
-},
+  "start_url": "/",
+  "background_color": "#f3e5f5",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#4a148c"
+}
